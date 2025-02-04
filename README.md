@@ -5,7 +5,7 @@ After colcon build `source install/setup.bash` is necessary. since in my case, t
 
 ## Intermediate result
 
-VirtualBox:~/robot_ws$ ros2 run robot robot_node
+VirtualBox:~/robot_ws$ ros2 run robot robot_node<br>
 [INFO] [1738687624.749665976] [robot_node]: Robot Node has started.
 Successfully loaded URDF for robot: robot
 [INFO] [1738687624.764242557] [robot_node]: URDF successfully parsed.

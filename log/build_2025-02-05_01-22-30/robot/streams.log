@@ -1,0 +1,17 @@
+[0.173s] Invoking command in '/home/boochanggyu/robot_ws/build/robot': /usr/bin/cmake --build /home/boochanggyu/robot_ws/build/robot -- -j12 -l12
+[0.596s] [ 33%] [32mBuilding CXX object CMakeFiles/robot_node.dir/src/urdf_parser.cpp.o[0m
+[0.596s] [ 66%] [32mBuilding CXX object CMakeFiles/robot_node.dir/src/robot_node.cpp.o[0m
+[0.750s] [01m[K/home/boochanggyu/robot_ws/src/robot/src/urdf_parser.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krobot/urdf_parser.hpp: No such file or directory
+[0.750s]     1 | #include [01;31m[K"robot/urdf_parser.hpp"[m[K
+[0.750s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.750s] compilation terminated.
+[0.784s] [01m[K/home/boochanggyu/robot_ws/src/robot/src/robot_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krobot/robot_node.hpp: No such file or directory
+[0.784s]     1 | #include [01;31m[K"robot/robot_node.hpp"[m[K
+[0.784s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.784s] compilation terminated.
+[1.042s] gmake[2]: *** [CMakeFiles/robot_node.dir/build.make:90: CMakeFiles/robot_node.dir/src/urdf_parser.cpp.o] Error 1
+[1.043s] gmake[2]: *** Waiting for unfinished jobs....
+[1.043s] gmake[2]: *** [CMakeFiles/robot_node.dir/build.make:76: CMakeFiles/robot_node.dir/src/robot_node.cpp.o] Error 1
+[1.076s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/robot_node.dir/all] Error 2
+[1.076s] gmake: *** [Makefile:146: all] Error 2
+[1.148s] Invoked command in '/home/boochanggyu/robot_ws/build/robot' returned '2': /usr/bin/cmake --build /home/boochanggyu/robot_ws/build/robot -- -j12 -l12

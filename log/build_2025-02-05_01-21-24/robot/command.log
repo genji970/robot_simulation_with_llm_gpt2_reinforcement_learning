@@ -1,0 +1,4 @@
+Invoking command in '/home/boochanggyu/robot_ws/build/robot': /usr/bin/cmake /home/boochanggyu/robot_ws/src/robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/boochanggyu/robot_ws/install/robot
+Invoked command in '/home/boochanggyu/robot_ws/build/robot' returned '0': /usr/bin/cmake /home/boochanggyu/robot_ws/src/robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/boochanggyu/robot_ws/install/robot
+Invoking command in '/home/boochanggyu/robot_ws/build/robot': /usr/bin/cmake --build /home/boochanggyu/robot_ws/build/robot -- -j12 -l12
+Invoked command in '/home/boochanggyu/robot_ws/build/robot' returned '2': /usr/bin/cmake --build /home/boochanggyu/robot_ws/build/robot -- -j12 -l12

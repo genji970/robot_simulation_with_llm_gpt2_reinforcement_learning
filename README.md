@@ -20,7 +20,7 @@ Successfully loaded URDF for robot: robot
 ## mathematics
 1) gravity(vector calculation)
 
-2) culvature : wondering if it ie needed in gazebo since it's flat world(for simple background, do not consider like a ball or something)
+2) culvature : wondering if it is needed in gazebo since it's a flat world(for simple background, do not consider like a ball or something)
 
 3) velocity. I'm not sure but jacobian is needed in some cases.
    according to chatgpt, v of end effector = jacobian mat * v of joint.(I'm not sure. I forgot a lot). if jacobian mat -> homogeneous coordinate -> square mat -> inverse process can be also calculated

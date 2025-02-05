@@ -16,3 +16,13 @@ Successfully loaded URDF for robot: robot
 1) simulation in gazebo
 2) add llm from https://github.com/genji970/llm_data_collecting-processing_inference
 3) add rl method such as ppo/actor critic
+
+## mathematics
+1) gravity(vector calculation)
+
+2) culvature : wondering if it ie needed in gazebo since it's flat world(for simple background, do not consider like a ball or something)
+
+3) velocity. I'm not sure but jacobian is needed in some cases.
+   according to chatgpt, v of end effector = jacobian mat * v of joint.(I'm not sure. I forgot a lot). if jacobian mat -> homogeneous coordinate -> square mat -> inverse process can be also calculated
+
+   jacobian is needed since each joint has each orthogonal coordinate(in this case orthonormal?). so Jacobian mat is needed.

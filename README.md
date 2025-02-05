@@ -2,6 +2,7 @@ in progress not end
 
 After colcon build `source install/setup.bash` is necessary. since in my case, there was an error, "Package 'robot' not found"
 
+tinyxml was the problem when building. make sure in CMakeLists.txt, tinyxml is in find_libraries not find_packages
 
 ## Intermediate result
 
@@ -12,7 +13,7 @@ Successfully loaded URDF for robot: robot
 [INFO] [1738687631.349815891] [rclcpp]: signal_handler(signum=2)
 
 ## third change
-add gazebo_spawn.cpp in order to simulate robot in gazebo env.
+add gazebo_spawn.cpp in order to simulate robot in gazebo env. 
 
 ## Next step
 0) change xacro, urdf

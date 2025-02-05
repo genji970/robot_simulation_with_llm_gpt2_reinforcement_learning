@@ -18,7 +18,7 @@ add gazebo_spawn.cpp in order to simulate robot in gazebo env.
 ## Next step
 0) change xacro, urdf
 1) simulation in gazebo
-2) add llm from https://github.com/genji970/llm_data_collecting-processing_inference
+2) add llm
 3) add rl method such as ppo/actor critic
 
 ## mathematics

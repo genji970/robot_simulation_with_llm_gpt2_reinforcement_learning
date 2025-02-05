@@ -11,6 +11,9 @@ Successfully loaded URDF for robot: robot
 [INFO] [1738687624.764242557] [robot_node]: URDF successfully parsed.
 [INFO] [1738687631.349815891] [rclcpp]: signal_handler(signum=2)
 
+## third change
+add gazebo_spawn.cpp in order to simulate robot in gazebo env.
+
 ## Next step
 0) change xacro, urdf
 1) simulation in gazebo

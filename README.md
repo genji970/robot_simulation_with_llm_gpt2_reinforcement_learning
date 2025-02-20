@@ -4,9 +4,12 @@ After colcon build `source install/setup.bash` is necessary. since in my case, t
 
 tinyxml was the problem when building. make sure in CMakeLists.txt, tinyxml is in find_libraries not find_packages
 
+## how to run ##
+`ros2 launch gazebo_ros gazebo.launch.py`
+
 ## Intermediate result
 
-VirtualBox:~/robot_ws$ ros2 run robot robot_node<br>
+VirtualBox:~/robot_ws$ ros2 run robot robot_node<br>ros2 launch gazebo_ros gazebo.launch.py
 [INFO] [1738687624.749665976] [robot_node]: Robot Node has started.
 Successfully loaded URDF for robot: robot
 [INFO] [1738687624.764242557] [robot_node]: URDF successfully parsed.

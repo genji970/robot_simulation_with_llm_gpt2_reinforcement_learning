@@ -1,4 +1,6 @@
-in progress not end
+in progress not end.
+
+this is my record for robot project. it is far to go
 
 tinyxml was the problem when building. make sure in CMakeLists.txt, tinyxml is in find_libraries not find_packages
 

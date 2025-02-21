@@ -1,2 +1,0 @@
-/usr/bin/ar qc liburdf_parser.a CMakeFiles/urdf_parser.dir/src/urdf_parser.cpp.o
-/usr/bin/ranlib liburdf_parser.a

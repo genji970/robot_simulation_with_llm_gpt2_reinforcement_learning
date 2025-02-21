@@ -1,16 +1,18 @@
 in progress not end
 
-After colcon build `source install/setup.bash` is necessary. since in my case, there was an error, "Package 'robot' not found"
-
 tinyxml was the problem when building. make sure in CMakeLists.txt, tinyxml is in find_libraries not find_packages
 
-## Intermediate result
+## how to run ##
+1) `git clone this repo`<br>
+2) `change folder_name to ros_ws`<br>
+3) `cd ros_ws`<br>
+4) `colcon build`<br>
+5) `source install/setup.bash`<br>
+6) `ros2 launch gazebo_ros gazebo.launch.py gui:=true`<br>
+7) `ros2 service call /delete_entity gazebo_msgs/srv/DeleteEntity "{name: 'my_robot'}"`<br>
+8) `ros2 run gazebo_ros spawn_entity.py -entity my_robot -file ~/ros_ws/src/robot/urdf/robot.urdf -x 0 -y 0 -z 1`<br>
 
-VirtualBox:~/robot_ws$ ros2 run robot robot_node<br>
-[INFO] [1738687624.749665976] [robot_node]: Robot Node has started.
-Successfully loaded URDF for robot: robot
-[INFO] [1738687624.764242557] [robot_node]: URDF successfully parsed.
-[INFO] [1738687631.349815891] [rclcpp]: signal_handler(signum=2)
+![Image](https://github.com/user-attachments/assets/aa27fb4a-956a-4b94-bc0b-00610b9fb5fa)
 
 ## third change
 add gazebo_spawn.cpp in order to simulate robot in gazebo env. 

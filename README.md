@@ -5,7 +5,15 @@ After colcon build `source install/setup.bash` is necessary. since in my case, t
 tinyxml was the problem when building. make sure in CMakeLists.txt, tinyxml is in find_libraries not find_packages
 
 ## how to run ##
-`ros2 launch gazebo_ros gazebo.launch.py`
+
+# Gazebo 실행 (Terminal 1)
+`ros2 launch gazebo_ros gazebo.launch.py gui:=true`
+
+# 기존 로봇 제거 (Terminal 2)
+`ros2 service call /delete_entity gazebo_msgs/srv/DeleteEntity "{name: 'my_robot'}"`
+
+# 로봇 스폰
+`ros2 run gazebo_ros spawn_entity.py -entity my_robot -file ~/ros_ws/src/robot/urdf/robot.urdf -x 0 -y 0 -z 1`
 
 ## Intermediate result
 

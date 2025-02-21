@@ -15,14 +15,6 @@ tinyxml was the problem when building. make sure in CMakeLists.txt, tinyxml is i
 # 로봇 스폰
 `ros2 run gazebo_ros spawn_entity.py -entity my_robot -file ~/ros_ws/src/robot/urdf/robot.urdf -x 0 -y 0 -z 1`
 
-## Intermediate result
-
-VirtualBox:~/robot_ws$ ros2 run robot robot_node<br>ros2 launch gazebo_ros gazebo.launch.py
-[INFO] [1738687624.749665976] [robot_node]: Robot Node has started.
-Successfully loaded URDF for robot: robot
-[INFO] [1738687624.764242557] [robot_node]: URDF successfully parsed.
-[INFO] [1738687631.349815891] [rclcpp]: signal_handler(signum=2)
-
 ## third change
 add gazebo_spawn.cpp in order to simulate robot in gazebo env. 
 

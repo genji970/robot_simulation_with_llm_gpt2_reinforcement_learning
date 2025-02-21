@@ -1,0 +1,70 @@
+[0.355s] Invoking command in '/home/boochanggyu/ros_ws/build/robot': /usr/bin/cmake /home/boochanggyu/ros_ws/src/robot -DCMAKE_INSTALL_PREFIX=/home/boochanggyu/ros_ws/install/robot
+[3.496s] -- The C compiler identification is GNU 11.4.0
+[5.758s] -- The CXX compiler identification is GNU 11.4.0
+[5.920s] -- Detecting C compiler ABI info
+[7.199s] -- Detecting C compiler ABI info - done
+[7.232s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.238s] -- Detecting C compile features
+[7.265s] -- Detecting C compile features - done
+[7.303s] -- Detecting CXX compiler ABI info
+[8.034s] -- Detecting CXX compiler ABI info - done
+[8.090s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.090s] -- Detecting CXX compile features
+[8.090s] -- Detecting CXX compile features - done
+[8.304s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.826s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[10.398s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[10.736s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[10.768s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.807s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[10.923s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.005s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.236s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[11.254s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.244s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[12.371s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.479s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.527s] -- Looking for pthread.h
+[13.019s] -- Looking for pthread.h - found
+[13.032s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.621s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[13.627s] -- Found Threads: TRUE  
+[13.959s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[14.551s] -- Configuring done
+[14.603s] -- Generating done
+[14.636s] -- Build files have been written to: /home/boochanggyu/ros_ws/build/robot
+[14.700s] Invoked command in '/home/boochanggyu/ros_ws/build/robot' returned '0': /usr/bin/cmake /home/boochanggyu/ros_ws/src/robot -DCMAKE_INSTALL_PREFIX=/home/boochanggyu/ros_ws/install/robot
+[14.702s] Invoking command in '/home/boochanggyu/ros_ws/build/robot': /usr/bin/cmake --build /home/boochanggyu/ros_ws/build/robot -- -j12 -l12
+[15.023s] [ 16%] [32mBuilding CXX object CMakeFiles/gazebo_spawn.dir/src/gazebo_spawn.cpp.o[0m
+[15.090s] [ 33%] [32mBuilding CXX object CMakeFiles/urdf_parser.dir/src/urdf_parser.cpp.o[0m
+[16.439s] [ 50%] [32m[1mLinking CXX static library liburdf_parser.a[0m
+[16.816s] [ 50%] Built target urdf_parser
+[16.979s] [ 66%] [32mBuilding CXX object CMakeFiles/robot_node.dir/src/robot_node.cpp.o[0m
+[64.552s] [ 83%] [32m[1mLinking CXX executable robot_node[0m
+[64.576s] [100%] [32m[1mLinking CXX executable gazebo_spawn[0m
+[71.299s] [100%] Built target robot_node
+[71.532s] [100%] Built target gazebo_spawn
+[71.567s] Invoked command in '/home/boochanggyu/ros_ws/build/robot' returned '0': /usr/bin/cmake --build /home/boochanggyu/ros_ws/build/robot -- -j12 -l12
+[71.599s] Invoking command in '/home/boochanggyu/ros_ws/build/robot': /usr/bin/cmake --install /home/boochanggyu/ros_ws/build/robot
+[71.642s] -- Install configuration: ""
+[71.796s] -- Installing: /home/boochanggyu/ros_ws/install/robot/lib/robot/robot_node
+[71.796s] -- Set runtime path of "/home/boochanggyu/ros_ws/install/robot/lib/robot/robot_node" to ""
+[71.807s] -- Installing: /home/boochanggyu/ros_ws/install/robot/lib/robot/gazebo_spawn
+[71.826s] -- Set runtime path of "/home/boochanggyu/ros_ws/install/robot/lib/robot/gazebo_spawn" to ""
+[71.826s] -- Installing: /home/boochanggyu/ros_ws/install/robot/lib/liburdf_parser.a
+[71.826s] -- Installing: /home/boochanggyu/ros_ws/install/robot/share/ament_index/resource_index/package_run_dependencies/robot
+[71.826s] -- Installing: /home/boochanggyu/ros_ws/install/robot/share/ament_index/resource_index/parent_prefix_path/robot
+[71.826s] -- Installing: /home/boochanggyu/ros_ws/install/robot/share/robot/environment/ament_prefix_path.sh
+[72.203s] -- Installing: /home/boochanggyu/ros_ws/install/robot/share/robot/environment/ament_prefix_path.dsv
+[72.203s] -- Installing: /home/boochanggyu/ros_ws/install/robot/share/robot/environment/path.sh
+[72.219s] -- Installing: /home/boochanggyu/ros_ws/install/robot/share/robot/environment/path.dsv
+[72.219s] -- Installing: /home/boochanggyu/ros_ws/install/robot/share/robot/local_setup.bash
+[72.219s] -- Installing: /home/boochanggyu/ros_ws/install/robot/share/robot/local_setup.sh
+[72.219s] -- Installing: /home/boochanggyu/ros_ws/install/robot/share/robot/local_setup.zsh
+[72.219s] -- Installing: /home/boochanggyu/ros_ws/install/robot/share/robot/local_setup.dsv
+[72.221s] -- Installing: /home/boochanggyu/ros_ws/install/robot/share/robot/package.dsv
+[72.221s] -- Installing: /home/boochanggyu/ros_ws/install/robot/share/ament_index/resource_index/packages/robot
+[72.221s] -- Installing: /home/boochanggyu/ros_ws/install/robot/share/robot/cmake/robotConfig.cmake
+[72.221s] -- Installing: /home/boochanggyu/ros_ws/install/robot/share/robot/cmake/robotConfig-version.cmake
+[72.221s] -- Installing: /home/boochanggyu/ros_ws/install/robot/share/robot/package.xml
+[72.270s] Invoked command in '/home/boochanggyu/ros_ws/build/robot' returned '0': /usr/bin/cmake --install /home/boochanggyu/ros_ws/build/robot
